@@ -1,9 +1,5 @@
-import re
-series = """
-'01/18/2014 13:00:00', 100, '1st';
-'01/18/2014 13:30:00', 110, '2nd';
-'01/18/2014 14:00:00', 120, '3rd'
-"""
-dt = re.compile("'[0-9/:\s]+'")
-result = dt.findall(series)
-print(result)
+#Addition
+num1 = float(input("Enter the first number for addition: "))
+num2 = float(input("Enter the second number for addition: "))
+sum_result = num1 + num2
+print(f"Sum : {num1} + {num2}  = {sum_result}")
